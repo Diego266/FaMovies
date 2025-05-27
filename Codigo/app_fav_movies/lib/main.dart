@@ -121,6 +121,17 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }*/
 
+/*import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart'; // generado por FlutterFire CLI
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+  runApp(FavMoviesApp());
+}*/
 
 import 'package:flutter/material.dart';
 import 'bienvenida_inicio_sesion/Inicio_sesion.dart';
